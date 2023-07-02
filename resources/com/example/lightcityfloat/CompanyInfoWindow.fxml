@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lightcityfloat.ControllerClasses.CompanyInfoController">
+   <center>
+      <AnchorPane prefHeight="499.0" prefWidth="366.0" style="-fx-background-color: #1c6e75;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="85.0" layoutY="14.0" prefHeight="56.0" prefWidth="228.0" text="Company Info" textFill="WHITE">
+               <font>
+                  <Font name="Brush Script MT Italic" size="41.0" />
+               </font>
+            </Label>
+            <Label fx:id="infoLabel" layoutX="28.0" layoutY="87.0" prefHeight="327.0" prefWidth="297.0" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameLabel" layoutX="136.0" layoutY="110.0" prefHeight="28.0" prefWidth="157.0" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="fundLabel" layoutX="136.0" layoutY="148.0" prefHeight="28.0" prefWidth="157.0" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="productLabel" layoutX="146.0" layoutY="189.0" prefHeight="28.0" prefWidth="157.0" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="productPrice" layoutX="194.0" layoutY="226.0" prefHeight="28.0" prefWidth="157.0" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="companyIncome" layoutX="235.0" layoutY="270.0" prefHeight="28.0" prefWidth="138.0" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="ownerID" layoutX="192.0" layoutY="310.0" prefHeight="28.0" prefWidth="146.0" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="ID" layoutX="142.0" layoutY="350.0" prefHeight="28.0" prefWidth="146.0" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="buySellButton" layoutX="28.0" layoutY="438.0" mnemonicParsing="false" onAction="#BuySellButtonAction" prefHeight="37.0" prefWidth="82.0" style="-fx-background-color: #51b6b8;" text="For Sale" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="recruitmentButton" layoutX="124.0" layoutY="438.0" mnemonicParsing="false" onAction="#RecruitmentAction" prefHeight="37.0" prefWidth="122.0" style="-fx-background-color: #51b6b8;" text="Recruitmenting" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="closeButton" layoutX="262.0" layoutY="438.0" mnemonicParsing="false" onAction="#CloseButtonAction" prefHeight="37.0" prefWidth="82.0" style="-fx-background-color: #51b6b8;" text="close" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="19.0" />
+               </font>
+            </Button>
+            <Button fx:id="optionsButton" mnemonicParsing="false" onAction="#OptionButtonAction" prefHeight="72.0" prefWidth="78.0" style="-fx-background-color: #1c6e75;" text="㊂" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="33.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BuildingConstructorController">
+   <center>
+      <AnchorPane prefHeight="385.0" prefWidth="375.0" style="-fx-background-color: #2f40ab;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="42.0" layoutY="373.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="131.0" style="-fx-background-color: #afbfff;" text="Close" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="19.0" />
+               </font>
+            </Button>
+            <Button layoutX="201.0" layoutY="372.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="134.0" style="-fx-background-color: #afbfff;" text="Pay" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="19.0" />
+               </font>
+            </Button>
+            <MenuButton fx:id="BuildingCategoryMenuButton" layoutX="129.0" layoutY="280.0" mnemonicParsing="false" style="-fx-background-color: #afbfff;" text="Building Category" textFill="WHITE">
+              <items>
+                <MenuItem fx:id="companyMenuItem" mnemonicParsing="false" text="Company" />
+                <MenuItem fx:id="shopMenuItem" mnemonicParsing="false" text="Shop" />
+                  <MenuItem fx:id="entertainmentCenterMenuItem" mnemonicParsing="false" text="Entetainment Center" />
+              </items>
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+            </MenuButton>
+            <Label fx:id="WarningLabel" layoutX="59.0" layoutY="65.0" prefHeight="28.0" prefWidth="257.0" textFill="RED" />
+            <Label layoutX="19.0" layoutY="117.0" text="Product" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="176.0" text="Price" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="ProductTextField" layoutX="101.0" layoutY="111.0" prefHeight="36.0" prefWidth="242.0" style="-fx-background-color: #afbfff;" />
+            <TextField fx:id="PriceTextField" layoutX="101.0" layoutY="169.0" prefHeight="36.0" prefWidth="242.0" style="-fx-background-color: #afbfff;" />
+            <MenuButton fx:id="ProductCategoryMenuButton" layoutX="130.0" layoutY="223.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="185.0" style="-fx-background-color: #afbfff;" text="Product Category" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+               <items>
+                  <MenuItem fx:id="eatableMenuItem" mnemonicParsing="false" text="Eatable" />
+                  <MenuItem fx:id="clothingMenuItem" mnemonicParsing="false" text="Clothing" />
+                  <MenuItem fx:id="industryMenuItem" mnemonicParsing="false" text="Industry" />
+               </items>
+            </MenuButton>
+            <Label layoutX="61.0" layoutY="14.0" text="Building Cunstructor" textFill="WHITE">
+               <font>
+                  <Font name="Brush Script MT Italic" size="37.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

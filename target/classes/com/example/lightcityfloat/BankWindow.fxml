@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="287.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lightcityfloat.ControllerClasses.BankController">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="286.0" style="-fx-background-color: #6486ed;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="95.0" layoutY="14.0" text="Bank " textFill="WHITE">
+               <font>
+                  <Font name="Brush Script MT Italic" size="49.0" />
+               </font>
+            </Label>
+            <ScrollPane layoutX="8.0" layoutY="81.0" prefHeight="269.0" prefWidth="279.0" style="-fx-background-color: #6486ed;">
+               <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="880.0" prefWidth="260.0" style="-fx-background-color: #6486ed;">
+                     <children>
+                        <Label fx:id="transactionsLabel" layoutX="14.0" layoutY="27.0" textFill="WHITE" wrapText="true">
+                           <font>
+                              <Font name="Cambria" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+            <TextField fx:id="transactionIDTextField" layoutX="154.0" layoutY="341.0" prefHeight="37.0" prefWidth="91.0" promptText="Transaction ID">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </TextField>
+            <Button fx:id="confirmButton" layoutX="82.0" layoutY="341.0" mnemonicParsing="false" onAction="#ConfirmButtonAction" prefHeight="37.0" prefWidth="62.0" style="-fx-background-color: #7d99ff;" text="Confirm" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelButton" layoutX="14.0" layoutY="341.0" mnemonicParsing="false" onAction="#CancelButtonAction" prefHeight="37.0" prefWidth="58.0" style="-fx-background-color: #7d99ff;" text="Cancel" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

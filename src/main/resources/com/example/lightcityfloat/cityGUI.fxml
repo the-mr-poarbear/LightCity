@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="960.0" styleClass="root" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lightcityfloat.ControllerClasses.CityBuildingSelectionController">
+   <center>
+      <AnchorPane fx:id="Building3" prefHeight="517.0" prefWidth="966.0" styleClass="root" stylesheets="@../../../../java/CssStyle/CityStyle.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Building1" layoutX="14.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="65.0" prefWidth="92.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building10" layoutX="14.0" layoutY="74.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="60.0" prefWidth="92.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building2" layoutX="112.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="133.0" prefWidth="71.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building11" layoutX="189.0" layoutY="75.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="58.0" prefWidth="56.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building3" layoutX="189.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="65.0" prefWidth="56.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Municipality" layoutX="577.0" layoutY="270.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="139.0" prefWidth="96.0" style="-fx-background-color: #6486ed;" text="Municipality" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="PoliceOffice" layoutX="706.0" layoutY="271.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="72.0" prefWidth="92.0" style="-fx-background-color: #6486ed;" text="Police Office" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="Bank" layoutX="805.0" layoutY="270.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="73.0" prefWidth="149.0" style="-fx-background-color: #6486ed;" text="Bank" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="Prison" layoutY="271.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="127.0" prefWidth="116.0" style="-fx-background-color: #6486ed;" text="Prison" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building28" layoutX="706.0" layoutY="356.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="60.0" prefWidth="249.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building8" layoutX="706.0" layoutY="6.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="118.0" prefWidth="127.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building15" layoutX="706.0" layoutY="137.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="97.0" prefWidth="127.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building9" layoutX="843.0" layoutY="9.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="62.0" prefWidth="112.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building17" layoutX="903.0" layoutY="83.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="62.0" prefWidth="52.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building23" layoutX="843.0" layoutY="155.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="77.0" prefWidth="112.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building16" layoutX="843.0" layoutY="83.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="62.0" prefWidth="52.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building18" layoutX="7.0" layoutY="164.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="68.0" prefWidth="172.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building19" layoutX="189.0" layoutY="164.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="68.0" prefWidth="65.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building12" layoutX="296.0" layoutY="100.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="137.0" prefWidth="123.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building4" layoutX="281.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="58.0" prefWidth="56.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building5" layoutX="347.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="58.0" prefWidth="70.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building6" layoutX="443.0" layoutY="-1.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="60.0" prefWidth="99.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building13" layoutX="443.0" layoutY="69.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="91.0" prefWidth="99.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building20" layoutX="443.0" layoutY="168.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="60.0" prefWidth="99.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building7" layoutX="571.0" layoutY="6.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="91.0" prefWidth="105.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building14" layoutX="571.0" layoutY="105.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="38.0" prefWidth="105.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building21" layoutX="571.0" layoutY="149.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="38.0" prefWidth="105.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building27" layoutX="571.0" layoutY="193.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="43.0" prefWidth="105.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building29" layoutX="7.0" layoutY="447.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="86.0" prefWidth="56.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building30" layoutX="67.0" layoutY="448.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="85.0" prefWidth="62.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building31" layoutX="133.0" layoutY="447.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="86.0" prefWidth="56.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building32" layoutX="201.0" layoutY="430.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="105.0" prefWidth="110.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building25" layoutX="173.0" layoutY="264.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="128.0" prefWidth="246.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building26" layoutX="443.0" layoutY="264.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="62.0" prefWidth="98.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building34" layoutX="443.0" layoutY="335.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="62.0" prefWidth="46.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building34" layoutX="444.0" layoutY="473.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="62.0" prefWidth="112.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building38" layoutX="568.0" layoutY="444.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="91.0" prefWidth="107.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building37" layoutX="443.0" layoutY="404.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="64.0" prefWidth="98.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building35" layoutX="493.0" layoutY="335.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="62.0" prefWidth="46.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building39" layoutX="707.0" layoutY="449.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="84.0" prefWidth="90.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building40" layoutX="805.0" layoutY="447.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="84.0" prefWidth="152.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="Building33" layoutX="343.0" layoutY="414.0" mnemonicParsing="false" onAction="#BuildingSelectedAction" prefHeight="117.0" prefWidth="74.0" text="empty area" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Cambria" size="16.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutY="526.0" prefHeight="77.0" prefWidth="966.0" style="-fx-background-color: #2f40ab;">
+               <children>
+                  <Label layoutX="25.0" layoutY="15.0" text="\$" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="174.0" layoutY="22.0" text="Ѽ" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="291.0" layoutY="16.0" text="☕" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="401.0" layoutY="21.0" text="ᶻ 𝗓 " textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="514.0" layoutY="15.0" text="♥" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="630.0" layoutY="15.0" text="⏲" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="clockLabel" layoutX="666.0" layoutY="15.0" prefHeight="48.0" prefWidth="209.0" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="35.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="moneyLabel" layoutX="53.0" layoutY="15.0" prefHeight="48.0" prefWidth="111.0" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="35.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="foodLabel" layoutX="205.0" layoutY="15.0" prefHeight="48.0" prefWidth="79.0" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="35.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="waterLabel" layoutX="320.0" layoutY="15.0" prefHeight="47.0" prefWidth="69.0" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="34.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sleepLabel" layoutX="435.0" layoutY="19.0" prefHeight="40.0" prefWidth="73.0" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="healthLabel" layoutX="546.0" layoutY="16.0" prefHeight="48.0" prefWidth="85.0" textFill="WHITE">
+                     <font>
+                        <Font name="Brush Script MT Italic" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

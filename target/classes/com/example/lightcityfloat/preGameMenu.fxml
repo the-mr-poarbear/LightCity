@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lightcityfloat.ControllerClasses.GameMenuController">
+   <left>
+      <AnchorPane prefHeight="407.0" prefWidth="228.0" style="-fx-background-color: #85506f;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buildCityButton" layoutX="26.0" layoutY="277.0" mnemonicParsing="false" onAction="#BuildCityAction" prefHeight="69.0" prefWidth="181.0" style="-fx-background-color: #85506f;" text="Build City" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="joinCityButton" layoutX="30.0" layoutY="182.0" mnemonicParsing="false" onAction="#JoinCityAction" prefHeight="59.0" prefWidth="170.0" style="-fx-background-color: #85506f;" text="Join City" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="32.0" />
+               </font>
+            </Button>
+            <Button fx:id="continueButton" layoutX="26.0" layoutY="92.0" mnemonicParsing="false" onAction="#ContinueButtonAction" prefHeight="69.0" prefWidth="181.0" style="-fx-background-color: #85506f;" text="Continue" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Italic" size="32.0" />
+               </font>
+            </Button>
+            <Line endX="100.0" layoutX="116.0" layoutY="145.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="100.0" layoutX="115.0" layoutY="244.0" startX="-100.0" stroke="WHITE" />
+            <Line endX="100.0" layoutX="115.0" layoutY="337.0" startX="-100.0" stroke="WHITE" />
+            <Label layoutX="62.0" layoutY="14.0" text="Menu" textFill="WHITE">
+               <font>
+                  <Font name="Brush Script MT Italic" size="57.0" />
+               </font>
+            </Label>
+            <Button fx:id="closeButton" layoutX="3.0" mnemonicParsing="false" onAction="#CloseButtonAction" prefHeight="31.0" prefWidth="46.0" style="-fx-background-color: #85506f;" text="X" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="373.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="410.0" fitWidth="390.0" layoutX="4.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../86964.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

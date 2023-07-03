@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="346.0" style="-fx-background-color: #2f40ab;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lightcityfloat.ControllerClasses.ContinueGameController">
+   <children>
+      <Button fx:id="cancelButton" layoutX="104.0" layoutY="252.0" mnemonicParsing="false" onAction="#CancelButtonAction" prefHeight="40.0" prefWidth="86.0" style="-fx-background-color: #afbfff;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="okButton" cancelButton="true" layoutX="226.0" layoutY="252.0" mnemonicParsing="false" onAction="#OkButtonAction" prefHeight="40.0" prefWidth="86.0" style="-fx-background-color: #afbfff;" text="OK" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="21.0" />
+         </font>
+      </Button>
+      <Label fx:id="warningLabel" layoutX="43.0" layoutY="68.0" prefHeight="25.0" prefWidth="261.0" textFill="RED">
+         <font>
+            <Font name="Cambria" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="122.0" layoutY="9.0" text="Continue" textFill="WHITE">
+         <font>
+            <Font name="Brush Script MT Italic" size="37.0" />
+         </font>
+      </Label>
+      <TextField fx:id="urlTextField" layoutX="104.0" layoutY="134.0" style="-fx-background-color: #afbfff;" />
+      <Label layoutX="43.0" layoutY="141.0" text="URL" textFill="WHITE">
+         <font>
+            <Font name="Cambria" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

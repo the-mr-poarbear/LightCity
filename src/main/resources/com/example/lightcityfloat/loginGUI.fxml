@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lightcityfloat.ControllerClasses.LoginController">
+   <left>
+      <AnchorPane prefHeight="407.0" prefWidth="228.0" style="-fx-background-color: #1af0e9;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="27.0" layoutY="57.0" text="LightCity" textFill="WHITE">
+               <font>
+                  <Font name="Brush Script MT Italic" size="53.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="43.0" layoutY="142.0" prefHeight="116.0" prefWidth="142.0" text="Live Your Dream Life" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Cambria Italic" size="29.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="114.0" layoutY="129.0" startX="-100.0" stroke="WHITE" strokeWidth="4.0" />
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="373.0" style="-fx-background-color: #fcd305;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="115.0" layoutY="6.0" prefHeight="116.0" prefWidth="142.0" text="Login" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Brush Script MT Italic" size="53.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="14.0" layoutY="122.0" prefHeight="74.0" prefWidth="165.0" text="User Name " textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Brush Script MT Italic" size="28.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="7.0" layoutY="178.0" prefHeight="74.0" prefWidth="165.0" text="Password " textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Brush Script MT Italic" size="28.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usernameTextField" layoutX="157.0" layoutY="141.0" prefHeight="37.0" prefWidth="189.0" promptText="Username" />
+            <Button fx:id="goToReigsterPageButton" layoutX="208.0" layoutY="282.0" mnemonicParsing="false" onAction="#RegisterButtonAction" prefHeight="46.0" prefWidth="138.0" style="-fx-background-color: #15d4cd;" text="Register" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Italic" size="25.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="passwordPasswordField" layoutX="159.0" layoutY="197.0" prefHeight="37.0" prefWidth="186.0" promptText="Password" />
+            <Button fx:id="loginButton" layoutX="41.0" layoutY="282.0" mnemonicParsing="false" onAction="#LoginButtonAction" prefHeight="46.0" prefWidth="138.0" style="-fx-background-color: #15d4cd;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Cambria" size="25.0" />
+               </font>
+            </Button>
+            <Label fx:id="loginMassageLabel" alignment="CENTER" layoutX="46.0" layoutY="110.0" prefHeight="25.0" prefWidth="267.0" textFill="RED">
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font></Label>
+            <Button fx:id="closeButton" layoutX="320.0" mnemonicParsing="false" onAction="#CloseButtonAction" prefHeight="0.0" prefWidth="36.0" style="-fx-background-color: fcd305;" text="X">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
